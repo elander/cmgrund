@@ -1,13 +1,18 @@
 import './App.css';
 
 import { AppContainer } from './styles';
+import { Card } from './Card';
+import { Column } from './Column';
 import React from 'react';
-import logo from './logo.svg';
 
 function App() {
   return (
     <AppContainer>
-      Här ska vi ha våra kolumner
+      <Column text="Min första riktiga kolumn">
+        <Card text='Mitt första kort' />
+        <Card text='Mitt andra kort' />
+        <Card text='Mitt tredje kort' />
+      </Column>
       </AppContainer>
   );
 }

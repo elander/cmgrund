@@ -5,6 +5,22 @@ import styled from 'styled-components';
 // ColumnTitle
 // CardContainer
 
+type AddItemButtonProps = {
+    dark?: boolean;
+}
+
+export const AddItemButton = styled.button<AddItemButtonProps>`
+    color: ${props => (props.dark ? "#000" : "#fff")};
+    background-color: #ffffff3d;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    max-width: 300px;
+    padding: 10px 12px;
+    text-align: left;
+    width: 100%;
+`
+
 export const AppContainer = styled.article`
     align-items: flex-start;
     display: flex;
