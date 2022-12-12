@@ -1,3 +1,12 @@
+Konstiga "kommentaren" i react-env.d.ts:
+https://www.typescriptlang.org/docs/handbook/triple-slash-directives.html
+
+Dokumentation av "manifest.json":
+https://developer.mozilla.org/en-US/docs/Web/Manifest
+
+:after och ::before
+https://developer.mozilla.org/en-US/docs/Web/CSS/::after
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
