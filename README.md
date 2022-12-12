@@ -7,6 +7,9 @@ https://developer.mozilla.org/en-US/docs/Web/Manifest
 :after och ::before
 https://developer.mozilla.org/en-US/docs/Web/CSS/::after
 
+Hooks (useState, men det finns länkar till övriga i högerkant på sidan)
+https://reactjs.org/docs/hooks-state.html
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

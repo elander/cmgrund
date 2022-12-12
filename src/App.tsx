@@ -1,5 +1,6 @@
 import './App.css';
 
+import { AddNewItem } from './AddNewItem';
 import { AppContainer } from './styles';
 import { Card } from './Card';
 import { Column } from './Column';
@@ -13,6 +14,9 @@ function App() {
         <Card text='Mitt andra kort' />
         <Card text='Mitt tredje kort' />
       </Column>
+      <AddNewItem
+      onAdd={console.log}
+      toggleButtonText="Lägg till kolumn" />
       </AppContainer>
   );
 }

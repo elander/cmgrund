@@ -21,6 +21,31 @@ export const AddItemButton = styled.button<AddItemButtonProps>`
     width: 100%;
 `
 
+export const NewItemFormContainer = styled.div`
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+`
+
+export const NewItemInput = styled.input`
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 1rem;
+    width: 100%;
+`
+export const NewItemButton = styled.button`
+    background-color: #5aac44;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    padding: 6px 12px;
+    text-align: center;
+`
+
+
 export const AppContainer = styled.article`
     align-items: flex-start;
     display: flex;
