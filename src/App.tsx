@@ -11,7 +11,11 @@ function App() {
     <AppContainer>
       <Column text="Min första riktiga kolumn">
         <Card text='Mitt första kort' />
+      </Column>
+      <Column text="Min andra kolumn">
         <Card text='Mitt andra kort' />
+      </Column>
+      <Column text="Min tredje kolumn">
         <Card text='Mitt tredje kort' />
       </Column>
       <AddNewItem

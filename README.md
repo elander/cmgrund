@@ -10,6 +10,12 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/::after
 Hooks (useState, men det finns länkar till övriga i högerkant på sidan)
 https://reactjs.org/docs/hooks-state.html
 
+kort tutorial om hur Zustand fungerar (vi går igenom Zustand på onsdag)
+https://www.youtube.com/watch?v=Ggb2nPEXahs
+
+Theo Browne (grundare och CEO för ping.gg) förklarar varför man inte behöver Redux:
+https://www.youtube.com/watch?v=5-1LM2NySR0
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
