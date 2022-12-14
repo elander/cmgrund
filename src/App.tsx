@@ -2,24 +2,47 @@ import './App.css';
 
 import { AddNewItem } from './AddNewItem';
 import { AppContainer } from './styles';
-import { Card } from './Card';
 import { Column } from './Column';
 import React from 'react';
+import { nanoid } from 'nanoid';
+import { useStore } from './store';
+
+// const AppData = [
+//   {
+//     text: "Min första riktiga kolumn",
+//     tasks: [{text: "Mitt första kort"}, {text: "Mitt fjärde kort"}]
+//   },
+//   {
+//     text: "Min andra kolumn",
+//     tasks: [{text: "Mitt andra kort"}]
+//   },
+//   {
+//     text: "Min tredje kolumn",
+//     tasks: [{text: "Mitt tredje kort"}]
+//   }
+// ];
+
 
 function App() {
+  const {lists, addList} = useStore();
+
+  function addColumnToState(text: string) {
+    addList({
+      id: nanoid(),
+      text,
+      tasks: []
+    });
+  }
+
   return (
     <AppContainer>
-      <Column text="Min första riktiga kolumn">
-        <Card text='Mitt första kort' />
-      </Column>
-      <Column text="Min andra kolumn">
-        <Card text='Mitt andra kort' />
-      </Column>
-      <Column text="Min tredje kolumn">
-        <Card text='Mitt tredje kort' />
-      </Column>
+      {lists.map((item) =>{
+        return (
+          <Column text={item.text} tasks={item.tasks} id={item.id} key={item.id} />
+        )
+      })}
       <AddNewItem
-      onAdd={console.log}
+      onAdd={addColumnToState}
       toggleButtonText="Lägg till kolumn" />
       </AppContainer>
   );
