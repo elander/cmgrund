@@ -40,6 +40,9 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 Dra och släpp med sortering:
 https://docs.dndkit.com/presets/sortable
 
+Vad betyder de där tre punkterna? Spread (eller rest):
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
