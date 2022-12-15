@@ -16,6 +16,30 @@ https://www.youtube.com/watch?v=Ggb2nPEXahs
 Theo Browne (grundare och CEO för ping.gg) förklarar varför man inte behöver Redux:
 https://www.youtube.com/watch?v=5-1LM2NySR0
 
+Objekt är inte enkla att kopiera:
+https://javascript.info/object-copy
+
+Dokumentation för Zustand:
+https://docs.pmnd.rs/zustand/getting-started/introduction
+
+Bra introduktion till Zustand:
+https://www.youtube.com/watch?v=Ggb2nPEXahs
+
+Det kan vara bökigt att använda objekt med objekt inuti i Zustand state:
+https://docs.pmnd.rs/zustand/guides/updating-state#deeply-nested-object
+
+Zustand beter sig litet annorlunda när man använder TypeScript:
+https://docs.pmnd.rs/zustand/guides/typescript
+
+För unika id kan man använda nanoid, ett pyttlitet bibliotek (130 tecken):
+https://github.com/ai/nanoid#react
+
+Hitta objekt i arrayer:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex
+
+Dra och släpp med sortering:
+https://docs.dndkit.com/presets/sortable
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
